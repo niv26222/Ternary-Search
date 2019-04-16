@@ -16,3 +16,7 @@ If not, then we compare the key with the element at mid2. If found equal, we ret
 If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
 If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
 If not, then we recur to the second (middle) part.
+
+
+
+Time Complexity:  O(log _3(n)), where n is the size of the array.
